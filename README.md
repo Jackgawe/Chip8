@@ -1,6 +1,5 @@
 # CHIP-8 Emulator
-
-A Python implementation of a CHIP-8 emulator. The CHIP-8 is a simple, interpreted programming language that was used in the 1970s and 1980s for creating simple games and programs.
+A Python-based CHIP-8 emulator that's byte-sized (haha get it bite sized, byte sized, chips, ok nvm)
 
 ## Features
 
@@ -31,10 +30,9 @@ python main.py path/to/rom.ch8
 ```
 
 ## Controls
-
 - 1-4, Q-R, A-F, Z-V: CHIP-8 keypad
 - ESC: Quit emulator
-
+- Quite buggy
 ## Project Structure
 
 - `main.py`: Entry point and main emulator loop
@@ -43,7 +41,3 @@ python main.py path/to/rom.ch8
 - `keyboard.py`: Keyboard input handling
 - `memory.py`: Memory management
 - `rom_loader.py`: ROM loading functionality
-
-## License
-
-MIT License 
